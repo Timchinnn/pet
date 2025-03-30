@@ -1,0 +1,129 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  /* left: 0; */
+  display: flex;
+  width: 96%;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #222b1b;
+  z-index: 100;
+}
+.contentWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.home {
+  width: 24px;
+}
+.people {
+  width: 24px;
+}
+.MessageNo {
+  width: 24px;
+}
+.CounterNo {
+  width: 24px;
+}
+.footerContent {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainTitle {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.element {
+  width: 343px;
+  height: 219px;
+  border-radius: 10px;
+  padding: 0px 5px;
+  background: #f4f4f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+.element h4 {
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.card {
+  position: relative;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.avatar {
+  width: 335px;
+  height: 171px;
+  border-radius: 10px;
+}
+.starCount {
+  width: 51px;
+  height: 24px;
+  background: #222b1b;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  position: absolute;
+  top: 3px;
+  right: 4px;
+}
+.starCount p {
+  font-family: Gilroy;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: white;
+}
+.star {
+  width: 16px;
+}
+
+.container p {
+  font-family: Gilroy;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.cardInfo {
+  width: 100%;
+  padding: 0px 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.cardDesc {
+  margin-bottom: 4px;
+}
+.cardName {
+  color: #a2acb0;
+  margin-bottom: 8px;
+}
+.desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}

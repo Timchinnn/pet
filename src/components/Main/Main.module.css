@@ -1,0 +1,250 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.eot");
+  src: local("Gilroy Light"), local("Gilroy-Light"),
+    url("https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.ttf")
+      format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot");
+  src: local("Gilroy Extrabold"), local("Gilroy-Extrabold"),
+    url("https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.ttf")
+      format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+p {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+h4 {
+  margin: 0;
+}
+body {
+  background-color: white;
+}
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.label h2 {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.label img {
+  width: 44px;
+}
+.main h3 {
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: gray;
+}
+.avatar {
+  width: 158px;
+  height: 82px;
+  border-radius: 10px;
+}
+.element {
+  width: 166px;
+  height: 214px;
+  border-radius: 10px;
+  padding: 0px 5px;
+  background: #f4f4f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 4px;
+}
+.container {
+  width: 94%;
+  /* margin-bottom: 90px; Добавляем отступ снизу */
+}
+.container p {
+  font-family: Gilroy;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.star {
+  width: 16px;
+}
+.starCount {
+  width: 51px;
+  height: 24px;
+  background: #222b1b;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  position: absolute;
+  top: 3px;
+  right: 4px;
+}
+.starCount p {
+  font-family: Gilroy;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: white;
+}
+.card {
+  position: relative;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+.locationImg {
+  width: 24px;
+}
+.like {
+  width: 44px;
+}
+.cardName {
+  color: #a2acb0;
+  margin-bottom: 8px;
+}
+.location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  width: 96%;
+}
+.offer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardInfo {
+  width: 100%;
+  /* padding: 0px 5px; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.cardDesc {
+  margin-bottom: 4px;
+}
+.price {
+  width: 106px;
+  height: 44px;
+  border-radius: 10px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plus {
+  width: 24px;
+}
+.addText {
+  font-family: Gilroy;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #f1ebd8;
+}
+.addContainer {
+  width: 100%;
+  height: 56px;
+  gap: 12px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #787d46;
+  margin-top: 2px;
+}
+.add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.element h4 {
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.home {
+  width: 24px;
+}
+.people {
+  width: 24px;
+}
+.MessageNo {
+  width: 24px;
+}
+.CounterNo {
+  width: 24px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  /* left: 0; */
+  display: flex;
+  width: 96%;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #222b1b;
+  z-index: 100;
+}
+.contentWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.elements {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 16px;
+  padding: 8px 0;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  will-change: transform;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  width: 98vw;
+}
+.elements::-webkit-scrollbar {
+  display: none;
+}
+.footerContent {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
