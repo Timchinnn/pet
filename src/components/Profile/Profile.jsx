@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Profile.module.css";
 import { useNavigate } from "react-router-dom";
 
 function Profile() {
-  const navigate = useNavigate();
+    const navigate = useNavigate();
+  useEffect(() => {
+    const tg = window.Telegram.WebApp;
+    tg.BackButton.show();
+    tg.BackButton.onClick(() => navigate(-1));
+    return () => {
+      tg.BackButton.hide();
+    };
+  }, [navigate]);
 
   return (
     <div

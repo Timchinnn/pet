@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 import styles from "./Ads.module.css";
 function Ads() {
-  const navigate = useNavigate();
+    const navigate = useNavigate();
+  useEffect(() => {
+    const tg = window.Telegram.WebApp;
+    tg.BackButton.show();
+    tg.BackButton.onClick(() => navigate(-1));
+    return () => {
+      tg.BackButton.hide();
+    };
+  }, [navigate]);
 
   return (
     <div
