@@ -248,3 +248,116 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.modal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #f1ebd8;
+  border-radius: 20px 20px 0 0;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1001;
+  max-width: 400px;
+  max-height: 80vh;
+  overflow-y: auto;
+  margin: 0 auto;
+}
+.modalOpen {
+  transform: translateY(0);
+}
+.imageContainer {
+  margin-bottom: 20px;
+}
+.mainImage {
+  position: relative;
+  margin-bottom: 10px;
+}
+.modalImage {
+  width: 100%;
+  border-radius: 10px;
+}
+.thumbnails {
+  display: flex;
+  gap: 10px;
+}
+.thumbnails img {
+  width: calc(33.33% - 7px);
+  border-radius: 10px;
+}
+.modalInfo {
+  padding: 0 10px;
+}
+.breed {
+  color: #666;
+  margin: 5px 0;
+}
+.category {
+  color: #787d46;
+  margin-bottom: 10px;
+}
+.description {
+  margin: 15px 0;
+  line-height: 1.4;
+}
+.owner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+.ownerAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.ownerLabel {
+  color: #666;
+  font-size: 12px;
+}
+.ownerName {
+  font-weight: 600;
+}
+.actions {
+  display: flex;
+  gap: 15px;
+  margin: 15px 0;
+}
+.actionIcon {
+  width: 24px;
+  cursor: pointer;
+}
+.contactButton {
+  width: 100%;
+  padding: 12px;
+  background: #787d46;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.reportButton {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  color: #666;
+  border: 1px solid #666;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1000;
+  cursor: pointer;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+}
